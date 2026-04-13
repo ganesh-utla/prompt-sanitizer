@@ -162,7 +162,7 @@ def start():
     config = load_config(config_path)
 
     console.print(f"[green]✓[/green] Starting prompt-sanitizer on localhost:{config.port}")
-    console.print(f"[green]✓[/green] Log viewer on localhost:{config.viewer_port}")
+    console.print(f"[green]✓[/green] Log viewer on localhost:{config.port}/viewer")
 
     import uvicorn
     from aegis.proxy.app import create_app

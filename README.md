@@ -77,7 +77,7 @@ Config lives at `~/.prompt-sanitizer/config.yaml`:
 
 ```yaml
 port: 8443
-viewer_port: 8444
+viewer_port: 8443/viewer
 
 providers:
   anthropic:
